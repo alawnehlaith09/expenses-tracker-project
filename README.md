@@ -2,7 +2,7 @@
 
 **Repository**:
 
-[github.com/alawnehlaith09/expenses-tracker-project](https://github.com/alawnehlaith09/expenses-tracker-project)
+[github.com/alawnehlaith09/expenses-tracker-project]([https://github.com/alawnehlaith09/expenses-tracker-project]%28https://github.com/alawnehlaith09/expenses-tracker-project%29)
 
 **Project Demo**:
 
@@ -62,9 +62,9 @@ A full stack web app to track personal expenses, built with Node.js, Express, Po
 
 ![Post New Data](screenshots/success-failure-request-cases/post-new-data.png)
 
-![Post New Data Fails](screenshots/success-failuree-request-cases/if-post-new-data-fails.png)
+![Post New Data Fails](screenshots/success-failure-request-cases/if-post-new-data-fails.png)
 
-![Put Data by ID](screenshots/sucess-faliure-request-cases/put-data-by-id.png.png)
+![Put Data by ID](screenshots/success-failure-request-cases/put-data-by-id.png)
 
 ![Put Data by ID Fails](screenshots/success-failure-request-cases/if-put-data-fails.png)
 
@@ -75,4 +75,5 @@ A full stack web app to track personal expenses, built with Node.js, Express, Po
 ## What was the hardest part?
 
 The hardest part was remembering what each Bootstrap utility class does. There are so many of them, and without the documentation open I kept mixing them up.
+
 However, I solved this by repetition and practice. The more I used them, the easier it became to remember.
