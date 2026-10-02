@@ -2,7 +2,7 @@
 
 **Repository**:
 
-[github.com/alawnehlaith09/expenses-tracker-project]([https://github.com/alawnehlaith09/expenses-tracker-project]%28https://github.com/alawnehlaith09/expenses-tracker-project%29)
+[github.com/alawnehlaith09/expenses-tracker-project](https://github.com/alawnehlaith09/expenses-tracker-project)
 
 **Project Demo**:
 
