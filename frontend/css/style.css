@@ -1,0 +1,131 @@
+/* ==========================================
+   Expense Tracker - Simple Dark Theme
+   ========================================== */
+
+/* background color of body and default text color */
+body.dark-mode {
+  background-color: #121212 !important;
+  color: #ffffff !important;
+}
+
+/* background color, border, and text color for navbar, cards, and modal */
+body.dark-mode .navbar,
+body.dark-mode .card,
+body.dark-mode #editExpenseModal .modal-content {
+  background-color: #1e1e1e !important;
+  border: 1px solid #2d2d2d !important;
+  color: #ffffff !important;
+}
+
+body.dark-mode #editExpenseModal .modal-header,
+body.dark-mode #editExpenseModal .modal-footer {
+  border-color: #2d2d2d !important;
+}
+
+body.dark-mode #editExpenseModal .btn-close {
+  filter: invert(1);
+}
+
+/* text color of summary cards labels */
+body.dark-mode .text-muted {
+  color: #a0a0a0 !important;
+}
+
+/* background color, border, and text color for inputs and selects */
+body.dark-mode .form-control,
+body.dark-mode .form-select {
+  background-color: #161616 !important;
+  border: 1px solid #333333 !important;
+  color: #ffffff !important;
+}
+
+/* to set place holder text colors in dark mode */
+body.dark-mode .form-control::placeholder {
+  color: #a0a0a0;
+  opacity: 1;
+}
+
+/* focus state when user clicks on input or select field */
+body.dark-mode .form-control:focus,
+body.dark-mode .form-select:focus {
+  background-color: #1a1a1a !important;
+  border-color: #10b981 !important;
+  color: #ffffff !important;
+}
+
+/* primary button background and hover states */
+.btn-primary {
+  background-color: #10b981 !important;
+  border-color: #10b981 !important;
+  color: #ffffff !important;
+}
+
+.btn-primary:hover {
+  background-color: #059669 !important;
+}
+
+/* action buttons (edit and delete) */
+.btn-outline-secondary {
+  color: #dddddd !important;
+  border-color: #444444 !important;
+}
+
+.btn-outline-danger {
+  color: #ff6b6b !important;
+  border-color: #842029 !important;
+}
+
+/* table borders and text color */
+body.dark-mode .table {
+  color: #ffffff !important;
+}
+
+body.dark-mode .table th,
+body.dark-mode .table td {
+  border-bottom: 1px solid #2d2d2d !important;
+  color: #ffffff !important;
+}
+
+/* category badge base styles and colors */
+.badge-category {
+  color: #ffffff !important;
+  padding: 4px 10px;
+  border-radius: 12px;
+}
+
+.badge-food {
+  background-color: #d97706 !important;
+}
+.badge-transport {
+  background-color: #0284c7 !important;
+}
+.badge-bills {
+  background-color: #dc2626 !important;
+}
+.badge-entertainment {
+  background-color: #7c3aed !important;
+}
+.badge-other {
+  background-color: #64748b !important;
+}
+
+/* style options inside dropdown select menus */
+body.dark-mode option {
+  background-color: #1a1a1a !important;
+  color: #ffffff !important;
+}
+
+/* use CSS grid and avoid using bootstrap grid */
+.summary-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* to fit content on different devices */
+@media (max-width: 768px) {
+  .summary-cards {
+    grid-template-columns: 1fr;
+  }
+}
